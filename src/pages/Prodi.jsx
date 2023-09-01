@@ -56,7 +56,7 @@ const Prodi = () => {
                         {angkatan.data[kelas].map((mahasiswa, index) => (
                           <tr key={index}>
                             <td className='border'>
-                              {generateNPM(angkatan.tahun_masuk, prodi.kode_prodi, mahasiswa.id)}
+                            <a href={`/mahasiswa/${generateNPM(angkatan.tahun_masuk, prodi.kode_prodi, mahasiswa.id)}`}>{generateNPM(angkatan.tahun_masuk, prodi.kode_prodi, mahasiswa.id)}</a>
                             </td>
                             <td className='border'>{mahasiswa.nama}</td>
                             <td className='border'>{
@@ -74,23 +74,13 @@ const Prodi = () => {
                       Tidak ada mahasiswa yang mengambil kelas ini.
                     </div>
                   )}
-
-
-
-
                 </div>
               ))}
-
-
-
             </div>
           ))}
-
-
           <br />
         </div>
       ))}
-
     </div>
   )
 }

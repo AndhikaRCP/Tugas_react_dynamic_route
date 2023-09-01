@@ -1,11 +1,8 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from './pages/Home';
 import Prodi from './pages/Prodi';
 import Mahasiswa from './pages/Mahasiswa';
 import "./index.css"
-
 
 function App() {
   return (
@@ -13,7 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/prodi' element={<Prodi />} />
-        <Route path='/mahasiswa' element={<Mahasiswa />} />
+        <Route path='/mahasiswa/:id' element={<Mahasiswa />} />
       </Routes>
     </BrowserRouter>
   )

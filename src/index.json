@@ -1,0 +1,92 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "attributes": {
+          "prodi": {
+            "0": [
+              {
+                "kode_prodi": 24,
+                "nama_prodi": "Sistem Informasi",
+                "kepala_prodi": "Iis Pradesan, S.Kom, M.T.I",
+                "sektretaris": "Triana Elizabeth, S.Kom, M.T.I",
+                "mahasiswa": [
+                  {
+                    "tahun_masuk": "2021",
+                    "data": {
+                      "pagi": [
+                        { "id": 1, "nama": "Budi Santoso", "jenis_kelamin": "L", "alamat": "Jln. Veteran No. 02", "hobi": ["Tidur", "Game"] },
+                        { "id": 2, "nama": "Irfan Ibrahim", "jenis_kelamin": "L", "alamat": "Jln. Gandus No. 12", "hobi": ["Makan", "Membaca"] },
+                        { "id": 3, "nama": "Putri Maharani", "jenis_kelamin": "P", "alamat": "Jln. Kenten No. 03", "hobi": ["Belajar", "Membaca"] }
+                      ],
+                      "malam": [
+                        { "id": 1, "nama": "Siti Nurhaliza", "jenis_kelamin": "P", "alamat": "Jln. Kenten No. 24", "hobi": ["Membaca", "Makan"] },
+                        { "id": 2, "nama": "Dewi Kusuma", "jenis_kelamin": "P", "alamat": "Jln. Rajawali No. 01", "hobi": ["Makan", "Tidur"] },
+                        { "id": 3, "nama": "Ahmad Surya", "jenis_kelamin": "L", "alamat": "Jln. Kenten No. 11", "hobi": ["Tidur", "Game"] }
+                      ],
+                      "cuti": [{ "id": 1, "nama": "Rizky Pratama", "jenis_kelamin": "L", "alamat": "Jln. Veteran No. 10", "hobi": ["Belajar", "Game"] }]
+                    }
+                  },
+                  {
+                    "tahun_masuk": "2022",
+                    "data": {
+                      "pagi": [
+                        { "id": 1, "nama": "Rina Widjaja", "jenis_kelamin": "P", "alamat": "Jln. Veteran No. 15", "hobi": ["Belajar", "Makan", "Nonton Drakor"] },
+                        { "id": 2, "nama": "Maya Sari", "jenis_kelamin": "P", "alamat": "Jln. Kenten No. 25", "hobi": ["Tidur"] }
+                      ],
+                      "malam": [
+                        { "id": 1, "nama": "Adi Nugroho", "jenis_kelamin": "L", "alamat": "Jln. Kol Atmo No. 22", "hobi": ["Belajar", "Sepak Bola"] },
+                        { "id": 2, "nama": "Dika Wibowo", "jenis_kelamin": "L", "alamat": "Jln. Rajawali No. 41", "hobi": ["Nonton Youtube", "Makan"] }
+                      ],
+                      "cuti": []
+                    }
+                  }
+                ]
+              },
+              {
+                "kode_prodi": 25,
+                "nama_prodi": "Informatika",
+                "kepala_prodi": "Derry Alamsyah, S.Si, M.Kom, M.Pd",
+                "mahasiswa": [
+                  {
+                    "tahun_masuk": "2021",
+                    "data": {
+                      "pagi": [
+                        { "id": 1, "nama": "Adi Wibowo", "jenis_kelamin": "L", "alamat": "Jln. Rajawali No. 12", "hobi": ["Makan", "Sepak Bola"] },
+                        { "id": 2, "nama": "Rizky Widjaja", "jenis_kelamin": "L", "alamat": "Jln. Kenten No. 10", "hobi": ["Belajar", "Game", "Basket"] },
+                        { "id": 3, "nama": "Dika Nugroho", "jenis_kelamin": "L", "alamat": "Jln. Kol Atmo No. 25", "hobi": ["Tidur"] }
+                      ],
+                      "malam": [
+                        { "id": 1, "nama": "Fauzi Rahman", "jenis_kelamin": "L", "alamat": "Jln. Rajawali No. 31", "hobi": ["Game"] },
+                        { "id": 2, "nama": "Nia Puspita", "jenis_kelamin": "P", "alamat": "Jln. Kenten No. 46", "hobi": ["Game", "Tidur"] }
+                      ],
+                      "cuti": []
+                    }
+                  },
+                  {
+                    "tahun_masuk": "2022",
+                    "data": {
+                      "pagi": [
+                        { "id": 1, "nama": "Eko Prasetyo", "jenis_kelamin": "L", "alamat": "Jln. Mayor Ruslan No. 12", "hobi": ["Makan", "Badminton"] },
+                        { "id": 2, "nama": "Joko Susanto", "jenis_kelamin": "L", "alamat": "Jln. Veteran No. 03", "hobi": ["Lari", "Gym"] },
+                        { "id": 3, "nama": "Yuni Fitriani", "jenis_kelamin": "P", "alamat": "Jln. Rajawali No. 25", "hobi": ["Kerja"] }
+                      ],
+                      "malam": [
+                        { "id": 1, "nama": "Andi Saputra", "jenis_kelamin": "L", "alamat": "Jln. Mayor Ruslan No. 12", "hobi": ["Makan", "Badminton"] },
+                        { "id": 2, "nama": "Rika Indah", "jenis_kelamin": "P", "alamat": "Jln. Kenten No. 09", "hobi": ["Nonton Drakor", "Membaca"] }
+                      ],
+                      "cuti": [{ "id": 3, "nama": "Ayu Wulandari", "jenis_kelamin": "P", "alamat": "Jln. Kol Atmo No. 06", "hobi": ["Olahraga"] }]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "createdAt": "2023-08-19T13:49:17.448Z",
+          "updatedAt": "2023-08-19T14:22:24.146Z",
+          "publishedAt": "2023-08-19T13:49:19.002Z"
+        }
+      }
+    ],
+    "meta": { "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 1 } }
+  }
